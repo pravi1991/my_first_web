@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    docker {
-      image 'ubuntu'
-    }
-
-  }
+  agent none
   stages {
     stage('test') {
       steps {
