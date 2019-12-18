@@ -9,7 +9,7 @@ pipeline {
     stage('Build') {
       steps {
         sh '''uname -a 
-lsb_release -a'''
+ping -c 3 google.com'''
         git 'https://github.com/pravi1991/my_first_web.git'
       }
     }
