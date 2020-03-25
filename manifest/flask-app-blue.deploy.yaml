@@ -1,13 +1,13 @@
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
-  name: ${DEPLOYMENT}
+  name: flask-app-blue 
 spec:
   replicas: 3
   template:
     metadata:
       labels:
-        app: ${DEPLOYMENT}
+        app: flask-app-blue 
     spec:
       containers:
       - name: flask-app
