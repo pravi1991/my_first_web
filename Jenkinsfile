@@ -7,7 +7,6 @@ pipeline{
         MANIFEST_PATH='manifest'
         DEPLOYMENT_FILE='deployment.yaml'
         SERVICE_FILE='service.yaml'
-        LAST_DEPLOY=''
         IMAGE='praveendevopsnexus/app'
         GIT_URL='https://github.com/pravi1991/my_first_web.git'
         DOCKER_USER='praveendevopsnexus'
