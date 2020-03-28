@@ -5,7 +5,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    print('RUNNING')
     return "ALPHA\t"+str(time.time())+"\n"
 
 if __name__ == "__main__":
