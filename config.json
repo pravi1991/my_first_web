@@ -1,7 +1,0 @@
-{
-        "image":"praveendevopsnexus/app",
-        "blue_app": "flask-app-blue",
-        "green_app": "flask-app-green",
-        "service": "flask-app-service"
-}
-
