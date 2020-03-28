@@ -1,18 +1,18 @@
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
-  name: flask-app-blue 
+  name: DEPLOYMENT 
 spec:
   replicas: 3
   template:
     metadata:
       labels:
-        app: flask-app-blue 
+        app: DEPLOYMENT
     spec:
       containers:
-      - name: flask-app
-        image: praveendevopsnexus/app:latest
+      - name: APP
+        image: IMAGE:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
-        
+
